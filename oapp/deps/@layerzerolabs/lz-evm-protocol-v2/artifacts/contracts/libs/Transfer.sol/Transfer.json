@@ -1,0 +1,32 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "Transfer",
+  "sourceName": "contracts/libs/Transfer.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "ToAddressIsZero",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_to",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_value",
+          "type": "uint256"
+        }
+      ],
+      "name": "TransferNativeFailed",
+      "type": "error"
+    }
+  ],
+  "bytecode": "0x60566037600b82828239805160001a607314602a57634e487b7160e01b600052600060045260246000fd5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea26469706673582212208d4f23135e49fb413c0259f42b52a0a209f4e994cf9775c97be522dd50cf059364736f6c63430008160033",
+  "deployedBytecode": "0x73000000000000000000000000000000000000000030146080604052600080fdfea26469706673582212208d4f23135e49fb413c0259f42b52a0a209f4e994cf9775c97be522dd50cf059364736f6c63430008160033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

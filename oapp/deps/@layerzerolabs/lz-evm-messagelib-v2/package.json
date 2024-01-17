@@ -1,0 +1,60 @@
+{
+  "name": "@layerzerolabs/lz-evm-messagelib-v2",
+  "version": "2.0.12",
+  "license": "LZBL-1.2",
+  "files": [
+    "artifacts/contracts/**/!(*.dbg).json",
+    "contracts/**/*"
+  ],
+  "scripts": {
+    "postpack": "node ./scripts/pack.mjs --postpack"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@layerzerolabs/lz-evm-protocol-v2": "^2.0.12",
+    "@layerzerolabs/lz-evm-v1-0.7": "^2.0.12",
+    "@openzeppelin/contracts": "^4.8.1",
+    "@openzeppelin/contracts-upgradeable": "^4.8.1",
+    "hardhat-deploy": "^0.11.44",
+    "hardhat-deploy-ethers": "^0.3.0-beta.13",
+    "solidity-bytes-utils": "^0.8.0"
+  },
+  "peerDependencies": {
+    "@axelar-network/axelar-gmp-sdk-solidity": "^5.6.3",
+    "@chainlink/contracts-ccip": "^0.7.6",
+    "@layerzerolabs/lz-evm-protocol-v2": "^2.0.12",
+    "@layerzerolabs/lz-evm-v1-0.7": "^2.0.12",
+    "@openzeppelin/contracts": "^4.8.1",
+    "@openzeppelin/contracts-upgradeable": "^4.8.1",
+    "hardhat-deploy": "^0.11.44",
+    "solidity-bytes-utils": "^0.8.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "lzVersions": {
+    "default": [
+      "v2"
+    ],
+    "v1": [
+      "Executor",
+      "ExecutorFeeLib",
+      "PriceFeed",
+      "DVNFeeLib",
+      "DVN",
+      "SendUln301",
+      "ReceiveUln301",
+      "Treasury"
+    ],
+    "v2": [
+      "Executor",
+      "ExecutorFeeLib",
+      "PriceFeed",
+      "DVNFeeLib",
+      "DVN",
+      "SendUln302",
+      "ReceiveUln302",
+      "Treasury"
+    ]
+  }
+}

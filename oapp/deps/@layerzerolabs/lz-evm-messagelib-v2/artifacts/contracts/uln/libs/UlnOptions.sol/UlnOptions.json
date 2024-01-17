@@ -1,0 +1,54 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "UlnOptions",
+  "sourceName": "contracts/uln/libs/UlnOptions.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "InvalidLegacyType1Option",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "InvalidLegacyType2Option",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint8",
+          "name": "workerId",
+          "type": "uint8"
+        }
+      ],
+      "name": "InvalidWorkerId",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "cursor",
+          "type": "uint256"
+        }
+      ],
+      "name": "InvalidWorkerOptions",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint16",
+          "name": "optionType",
+          "type": "uint16"
+        }
+      ],
+      "name": "UnsupportedOptionType",
+      "type": "error"
+    }
+  ],
+  "bytecode": "0x60566037600b82828239805160001a607314602a57634e487b7160e01b600052600060045260246000fd5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea264697066735822122098a9ae05a7030c9dfccf872839070c2292595b50674b3a80feaa801f57c3073564736f6c63430008160033",
+  "deployedBytecode": "0x73000000000000000000000000000000000000000030146080604052600080fdfea264697066735822122098a9ae05a7030c9dfccf872839070c2292595b50674b3a80feaa801f57c3073564736f6c63430008160033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
