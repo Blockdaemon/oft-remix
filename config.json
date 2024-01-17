@@ -24,13 +24,13 @@
       }
     },
     "remappings": [
-      "@openzeppelin/contracts/==node_modules/@openzeppelin/contracts/",
-      "@openzeppelin/contracts-upgradeable/==node_modules/@openzeppelin/contracts-upgradeable/",
-      "solidity-bytes-utils/==node_modules/solidity-bytes-utils/",
-      "hardhat-deploy/==node_modules/hardhat-deploy/",
-      "@layerzerolabs/lz-evm-protocol-v2/==node_modules/@layerzerolabs/lz-evm-protocol-v2/",
-      "@layerzerolabs/lz-evm-messagelib-v2/==node_modules/@layerzerolabs/lz-evm-messagelib-v2/",
-      "@layerzerolabs/lz-evm-v1-0.7/==node_modules/@layerzerolabs/lz-evm-v1-0.7/"
+      "@openzeppelin/contracts/=oapp/deps/@openzeppelin/contracts/",
+      "@openzeppelin/contracts-upgradeable/=oapp/deps/@openzeppelin/contracts-upgradeable/",
+      "solidity-bytes-utils/=oapp/deps/solidity-bytes-utils/",
+      "hardhat-deploy/=oapp/deps/hardhat-deploy/",
+      "@layerzerolabs/lz-evm-protocol-v2/=oapp/deps/@layerzerolabs/lz-evm-protocol-v2/",
+      "@layerzerolabs/lz-evm-messagelib-v2/=oapp/deps/@layerzerolabs/lz-evm-messagelib-v2/",
+      "@layerzerolabs/lz-evm-v1-0.7/=oapp/deps/@layerzerolabs/lz-evm-v1-0.7/"
     ]
   }
 }
