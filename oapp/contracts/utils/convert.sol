@@ -5,6 +5,7 @@
             return bytes32(uint256(uint160(_addr)));
         }
         function bytes32ToAddress(bytes32 _bytes) external pure returns (address) {
-            return address(uint160(uint256(_b)));
+            return address(uint160(uint256(_bytes)));
         }
     }
+
